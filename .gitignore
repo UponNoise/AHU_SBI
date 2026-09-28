@@ -11,3 +11,6 @@ website/node_modules/
 website/dist/
 website/.astro/
 website/.pagefind/
+
+# Finder metadata
+.DS_Store

@@ -1,4 +1,0 @@
-if (typeof ServerHosts == 'undefined'){
-    document.write('<script src="/ananas/ext/ananas/ServerHosts.js?v=2024-0119-1400"></script>');
-}
-document.write('<script src="/ananas/ext-4.2.0.663/all-classes.js?v=2024-1024-1400"></script>');

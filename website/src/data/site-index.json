@@ -8,9 +8,9 @@
     "retrieved_at": "2026-08-10"
   },
   "stats": {
-    "courses": 59,
-    "coursesWithResources": 37,
-    "files": 2170,
+    "courses": 63,
+    "coursesWithResources": 47,
+    "files": 2589,
     "majors": 2
   },
   "materialCategories": [
@@ -89,7 +89,7 @@
             "YJ40109-数据分析",
             "YJ40208-网络原理",
             "TX43405-社会心理学导论",
-            "ZH40204-计算机图形学",
+            "SX40001-毕业实习-系统硬件综合实训",
             "ZH40202-操作系统",
             "GG61117-习近平新时代中国特色社会主义思想概论（下）"
           ],
@@ -103,7 +103,7 @@
             "YJ40209-人机交互",
             "YJ40210-用户界面开发",
             "YJ40212-计算机安全基础",
-            "SX40001-毕业实习-系统硬件综合实训"
+            "ZH40204-计算机图形学"
           ],
           "availableCourses": 5
         },
@@ -143,7 +143,7 @@
             "YJ40201-程序设计基础",
             "GG64001-军事理论"
           ],
-          "availableCourses": 3
+          "availableCourses": 4
         },
         {
           "name": "大一下",
@@ -168,7 +168,7 @@
             "GG61115-毛泽东思想和中国特色社会主义理论体系概论",
             "GG61116-习近平新时代中国特色社会主义思想概论（上）"
           ],
-          "availableCourses": 5
+          "availableCourses": 6
         },
         {
           "name": "大二下",
@@ -181,7 +181,7 @@
             "GG61015-马克思主义基本原理",
             "SJ40102-数学实验设计"
           ],
-          "availableCourses": 2
+          "availableCourses": 6
         },
         {
           "name": "大三上",
@@ -229,6 +229,17 @@
             "常微分方程"
           ],
           "availableCourses": 3
+        },
+        {
+          "name": "补充资料",
+          "hidden": false,
+          "courses": [
+            "MATLAB应用统计版",
+            "图论",
+            "数学模型及实验",
+            "统计学概论"
+          ],
+          "availableCourses": 4
         }
       ]
     }
@@ -540,6 +551,37 @@
       "searchText": "军事理论 gg64001-军事理论 gg64001 dmt ams 大一上 大一上 通用资料 practice 复习资料"
     },
     {
+      "slug": "MATLAB应用统计版",
+      "name": "MATLAB应用统计版",
+      "code": "",
+      "codes": [],
+      "displayCode": "",
+      "credits": null,
+      "certification": null,
+      "prerequisite": null,
+      "officialPrograms": {},
+      "note": null,
+      "transferRequirements": {},
+      "placements": [
+        {
+          "major": "AMS",
+          "group": "补充资料",
+          "hidden": false
+        }
+      ],
+      "totalFiles": 10,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 10,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/MATLAB%E5%BA%94%E7%94%A8%E7%BB%9F%E8%AE%A1%E7%89%88/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
+      "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/MATLAB%E5%BA%94%E7%94%A8%E7%BB%9F%E8%AE%A1%E7%89%88",
+      "searchText": "matlab应用统计版 matlab应用统计版 ams 补充资料 通用资料"
+    },
+    {
       "slug": "Python",
       "name": "Python",
       "code": "",
@@ -677,11 +719,17 @@
           "hidden": false
         }
       ],
-      "totalFiles": 0,
-      "categories": [],
-      "hasResources": false,
+      "totalFiles": 20,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 20,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/SJ40102-%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/SJ40102-%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1",
-      "searchText": "数学实验设计 sj40102-数学实验设计 sj40102 ams 大二下"
+      "searchText": "数学实验设计 sj40102-数学实验设计 sj40102 ams 大二下 通用资料"
     },
     {
       "slug": "SX40001-毕业实习-系统硬件综合实训",
@@ -702,7 +750,7 @@
       "placements": [
         {
           "major": "DMT",
-          "group": "大三下",
+          "group": "大三上",
           "hidden": false
         }
       ],
@@ -721,7 +769,7 @@
       ],
       "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/SX40001-%E6%AF%95%E4%B8%9A%E5%AE%9E%E4%B9%A0-%E7%B3%BB%E7%BB%9F%E7%A1%AC%E4%BB%B6%E7%BB%BC%E5%90%88%E5%AE%9E%E8%AE%AD",
-      "searchText": "毕业实习-系统硬件综合实训 sx40001-毕业实习-系统硬件综合实训 sx40001 dmt 大三下 通用资料 作业"
+      "searchText": "毕业实习-系统硬件综合实训 sx40001-毕业实习-系统硬件综合实训 sx40001 dmt 大三上 通用资料 作业"
     },
     {
       "slug": "TX41401-中文写作",
@@ -1128,11 +1176,17 @@
           "hidden": false
         }
       ],
-      "totalFiles": 0,
-      "categories": [],
-      "hasResources": false,
+      "totalFiles": 42,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 42,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40106-%E9%AB%98%E9%98%B6%E6%A6%82%E7%8E%87%E8%AE%BA/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40106-%E9%AB%98%E9%98%B6%E6%A6%82%E7%8E%87%E8%AE%BA",
-      "searchText": "高阶概率论 yj40106-高阶概率论 yj40106 ams 大二下"
+      "searchText": "高阶概率论 yj40106-高阶概率论 yj40106 ams 大二下 通用资料"
     },
     {
       "slug": "YJ40107-应用代数学",
@@ -1157,11 +1211,17 @@
           "hidden": false
         }
       ],
-      "totalFiles": 0,
-      "categories": [],
-      "hasResources": false,
+      "totalFiles": 43,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 43,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40107-%E5%BA%94%E7%94%A8%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40107-%E5%BA%94%E7%94%A8%E4%BB%A3%E6%95%B0%E5%AD%A6",
-      "searchText": "应用代数学 yj40107-应用代数学 yj40107 ams 大二下"
+      "searchText": "应用代数学 yj40107-应用代数学 yj40107 ams 大二下 通用资料"
     },
     {
       "slug": "YJ40108-高阶数理统计",
@@ -1224,16 +1284,16 @@
           "hidden": false
         }
       ],
-      "totalFiles": 987,
+      "totalFiles": 979,
       "categories": [
         {
           "name": "通用资料",
-          "count": 41,
+          "count": 35,
           "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40109-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
         },
         {
           "name": "作业",
-          "count": 928,
+          "count": 926,
           "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40109-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E4%BD%9C%E4%B8%9A"
         },
         {
@@ -1303,11 +1363,17 @@
           "hidden": false
         }
       ],
-      "totalFiles": 0,
-      "categories": [],
-      "hasResources": false,
+      "totalFiles": 18,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 18,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40111-%E6%9C%89%E9%99%90%E6%95%B0%E5%AD%A6%E7%BB%93%E6%9E%84/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40111-%E6%9C%89%E9%99%90%E6%95%B0%E5%AD%A6%E7%BB%93%E6%9E%84",
-      "searchText": "有限数学结构 yj40111-有限数学结构 yj40111 ams 大二上"
+      "searchText": "有限数学结构 yj40111-有限数学结构 yj40111 ams 大二上 通用资料"
     },
     {
       "slug": "YJ40112-概率论与数理统计",
@@ -1341,11 +1407,11 @@
           "hidden": false
         }
       ],
-      "totalFiles": 66,
+      "totalFiles": 87,
       "categories": [
         {
           "name": "通用资料",
-          "count": 38,
+          "count": 59,
           "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40112-%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
         },
         {
@@ -1391,11 +1457,17 @@
           "hidden": false
         }
       ],
-      "totalFiles": 0,
-      "categories": [],
-      "hasResources": false,
+      "totalFiles": 15,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 15,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40201-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40201-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80",
-      "searchText": "程序设计基础 yj40201-程序设计基础 yj40201 ams 大一上"
+      "searchText": "程序设计基础 yj40201-程序设计基础 yj40201 ams 大一上 通用资料"
     },
     {
       "slug": "YJ40202-面向对象编程概论",
@@ -1429,11 +1501,11 @@
           "hidden": false
         }
       ],
-      "totalFiles": 31,
+      "totalFiles": 66,
       "categories": [
         {
           "name": "通用资料",
-          "count": 17,
+          "count": 52,
           "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40202-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E6%A6%82%E8%AE%BA/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
         },
         {
@@ -1488,11 +1560,11 @@
           "hidden": false
         }
       ],
-      "totalFiles": 52,
+      "totalFiles": 126,
       "categories": [
         {
           "name": "通用资料",
-          "count": 13,
+          "count": 87,
           "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40203-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
         },
         {
@@ -2116,11 +2188,17 @@
           "hidden": false
         }
       ],
-      "totalFiles": 0,
-      "categories": [],
-      "hasResources": false,
+      "totalFiles": 62,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 62,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40603-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%A6%82%E8%AE%BA/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/YJ40603-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%A6%82%E8%AE%BA",
-      "searchText": "经济学概论 yj40603-经济学概论 yj40603 ams 大二下"
+      "searchText": "经济学概论 yj40603-经济学概论 yj40603 ams 大二下 通用资料"
     },
     {
       "slug": "ZH40101-统计预测与决策",
@@ -2301,7 +2379,7 @@
           "hidden": false
         }
       ],
-      "totalFiles": 23,
+      "totalFiles": 34,
       "categories": [
         {
           "name": "通用资料",
@@ -2312,11 +2390,16 @@
           "name": "Practice",
           "count": 5,
           "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/ZH40202-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Practice"
+        },
+        {
+          "name": "其他",
+          "count": 11,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/ZH40202-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"
         }
       ],
       "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/ZH40202-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F",
-      "searchText": "操作系统 zh40202-操作系统 zh40202 dmt 大三上 通用资料 practice"
+      "searchText": "操作系统 zh40202-操作系统 zh40202 dmt 大三上 通用资料 practice 其他"
     },
     {
       "slug": "ZH40204-计算机图形学",
@@ -2337,7 +2420,7 @@
       "placements": [
         {
           "major": "DMT",
-          "group": "大三上",
+          "group": "大三下",
           "hidden": false
         }
       ],
@@ -2361,7 +2444,7 @@
       ],
       "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/ZH40204-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6",
-      "searchText": "计算机图形学 zh40204-计算机图形学 zh40204 dmt 大三上 通用资料 作业 复习资料"
+      "searchText": "计算机图形学 zh40204-计算机图形学 zh40204 dmt 大三下 通用资料 作业 复习资料"
     },
     {
       "slug": "ZH40207-计算机组成原理与汇编语言程序设计",
@@ -2594,6 +2677,37 @@
       "searchText": "大学物理实验a zj40313-大学物理实验a zj40313 dmt dmt 大一下 大二上 作业"
     },
     {
+      "slug": "图论",
+      "name": "图论",
+      "code": "",
+      "codes": [],
+      "displayCode": "",
+      "credits": null,
+      "certification": null,
+      "prerequisite": null,
+      "officialPrograms": {},
+      "note": null,
+      "transferRequirements": {},
+      "placements": [
+        {
+          "major": "AMS",
+          "group": "补充资料",
+          "hidden": false
+        }
+      ],
+      "totalFiles": 4,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 4,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%9B%BE%E8%AE%BA/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
+      "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%9B%BE%E8%AE%BA",
+      "searchText": "图论 图论 ams 补充资料 通用资料"
+    },
+    {
       "slug": "常微分方程",
       "name": "常微分方程",
       "code": "",
@@ -2617,17 +2731,79 @@
           "hidden": false
         }
       ],
-      "totalFiles": 1,
+      "totalFiles": 22,
       "categories": [
         {
           "name": "通用资料",
-          "count": 1,
+          "count": 22,
           "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
         }
       ],
       "hasResources": true,
       "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B",
       "searchText": "常微分方程 常微分方程 dmt ams 选修 选修 通用资料"
+    },
+    {
+      "slug": "数学模型及实验",
+      "name": "数学模型及实验",
+      "code": "",
+      "codes": [],
+      "displayCode": "",
+      "credits": null,
+      "certification": null,
+      "prerequisite": null,
+      "officialPrograms": {},
+      "note": null,
+      "transferRequirements": {},
+      "placements": [
+        {
+          "major": "AMS",
+          "group": "补充资料",
+          "hidden": false
+        }
+      ],
+      "totalFiles": 21,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 21,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%AE%9E%E9%AA%8C/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
+      "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%AE%9E%E9%AA%8C",
+      "searchText": "数学模型及实验 数学模型及实验 ams 补充资料 通用资料"
+    },
+    {
+      "slug": "统计学概论",
+      "name": "统计学概论",
+      "code": "",
+      "codes": [],
+      "displayCode": "",
+      "credits": null,
+      "certification": null,
+      "prerequisite": null,
+      "officialPrograms": {},
+      "note": null,
+      "transferRequirements": {},
+      "placements": [
+        {
+          "major": "AMS",
+          "group": "补充资料",
+          "hidden": false
+        }
+      ],
+      "totalFiles": 30,
+      "categories": [
+        {
+          "name": "通用资料",
+          "count": 30,
+          "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E6%A6%82%E8%AE%BA/%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99"
+        }
+      ],
+      "hasResources": true,
+      "githubUrl": "https://github.com/UponNoise/AHU_SBI_DMT/tree/main/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E6%A6%82%E8%AE%BA",
+      "searchText": "统计学概论 统计学概论 ams 补充资料 通用资料"
     }
   ]
 }
