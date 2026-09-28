@@ -1,3 +1,4 @@
+import { slug as slugifySegment } from 'github-slugger';
 import rawSiteData from '../data/site-index.json';
 
 export type Placement = {
@@ -69,7 +70,11 @@ export function sitePath(path = ''): string {
 }
 
 export function coursePath(slug: string): string {
-  return sitePath(`course/${slug}/`);
+  return sitePath(`course/${courseRouteSegment(slug)}/`);
+}
+
+export function courseRouteSegment(slug: string): string {
+  return slugifySegment(slug);
 }
 
 export function majorName(major: string): string {
