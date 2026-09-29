@@ -13,6 +13,7 @@
 - [AMS 课表索引](curricula/AMS/README.md)
 - [转学学分兑换说明](docs/transfer/README.md)
 - [收录内容](docs/收录内容.md)
+- [课程评价（AMS）](docs/课程评价)
 - [贡献指南](CONTRIBUTING.md)
 
 ## 库结构
