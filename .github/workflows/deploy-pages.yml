@@ -1,12 +1,9 @@
 name: Deploy course index to GitHub Pages
 
+# Rebuild on every push so newly uploaded materials show up in the index.
 on:
   push:
     branches: [main]
-    paths:
-      - "website/**"
-      - ".github/workflows/deploy-pages.yml"
-      - "README.md"
   workflow_dispatch:
 
 permissions:
@@ -22,22 +19,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout website source without large course files
-        shell: bash
-        run: |
-          git clone --depth 1 --filter=blob:none --no-checkout \
-            --branch main "https://github.com/${GITHUB_REPOSITORY}.git" source
-          cd source
-          git sparse-checkout init --cone
-          git sparse-checkout set website
-          git checkout --detach "${GITHUB_SHA}"
-
-      - name: Install, build, and upload website artifact
-        uses: withastro/action@v6
+      # The index only needs the file tree, so skip downloading the course files.
+      - uses: actions/checkout@v7
         with:
-          path: source/website
-          node-version: 24
-          package-manager: pnpm@11.16.0
+          filter: blob:none
+          sparse-checkout: |
+            site
+            scripts
+            data
+
+      - name: Build site
+        run: python3 scripts/build_site.py --out _site
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
 
   deploy:
     needs: build

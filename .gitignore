@@ -6,11 +6,8 @@
 __pycache__/
 *.py[cod]
 
-# Astro website build output
-website/node_modules/
-website/dist/
-website/.astro/
-website/.pagefind/
+# Index website build output
+_site/
 
 # Finder metadata
 .DS_Store

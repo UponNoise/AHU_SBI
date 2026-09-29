@@ -5,7 +5,7 @@
 
 资料仅供个人学习、复习和备份。课程安排与考核以学院当学期通知为准。
 
-🌐 **[打开课程资料索引网站](https://uponnoise.github.io/AHU_SBI_DMT/)** — 支持课程名、课程代码、专业、学期和资料类型筛选。
+🌐 **[打开课程资料索引网站](https://uponnoise.github.io/AHU_SBI/)** — 按专业、学期浏览，可搜索课程名、课号和文件名。
 
 ## 快速导航
 
@@ -23,7 +23,8 @@ README.md
 CONTRIBUTING.md
 docs/                  # 转学要求、收录说明等
 data/                  # 学期映射、官网课程快照与人工补充字段
-scripts/               # 自动生成课程索引与课程说明
+scripts/               # 自动生成课程索引、课程说明与索引网站
+site/                  # 索引网站页面（推送 main 后自动构建部署）
 curricula/
   DMT/                 # 数媒按学期课表（仅 Markdown 链接）
   AMS/                 # 应统按学期课表（仅 Markdown 链接）
